@@ -1,0 +1,36 @@
+<extend name="./Application/Admin/View/Layout/application.html"/>
+
+<block name="css">
+    <style>
+        .page2 {
+            display: none;
+        }
+    </style>
+</block>
+<block name="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="panel panel-default">
+                    <div class="panel-heading">上传文件</div>
+                    <div class="panel-body">
+
+                        <form enctype="multipart/form-data" method="post" action="{{:U('do_upload',array('path'=>$path))}}">
+                            <input type="hidden" name="MAX_FILE_SIZE" value="1000000" />
+                            <input type="file" name="file"/>
+                            <input type="submit">
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</block>
+
+<block name="js">
+    <script>
+
+    </script>
+</block>

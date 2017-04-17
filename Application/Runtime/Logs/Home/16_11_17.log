@@ -1,0 +1,2337 @@
+[ 2016-11-17T11:21:35+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.1660s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0980s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0480s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T11:28:18+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0320s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T11:28:24+08:00 ] 127.0.0.1 /Home/Index/lists/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0150s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='18' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE ( category_id='18' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-11-17T11:28:26+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-11-17T11:28:35+08:00 ] 127.0.0.1 /Home/Index/lists/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='6' )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('43','44','45')  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='45' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T11:28:40+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-11-17T11:29:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T11:29:47+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-11-17T11:29:49+08:00 ] 127.0.0.1 /Home/Index/show/id/43.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `article` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-11-17T11:42:29+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.061003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.061003s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-17T11:50:30+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0110s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T11:50:36+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0120s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0160s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-17T11:58:02+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0160s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T11:58:04+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0110s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T11:58:11+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T20:26:18+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0490s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: links D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T20:26:43+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: links D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T20:28:26+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: links D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T20:28:55+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: links D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020001s ]
+
+[ 2016-11-17T20:29:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-11-17T20:55:11+08:00 ] 127.0.0.1 /Home/Index/show/id/43.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: links D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-17T20:57:23+08:00 ] 127.0.0.1 /Home/Index/show/id/43.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: links D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:00:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T21:00:57+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: links D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:01:21+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: links D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:02:38+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:02:44+08:00 ] 127.0.0.1 /Home/Index/show/id/43.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:04:14+08:00 ] 127.0.0.1 /Home/Index/show/id/43.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T21:04:18+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-17T21:10:06+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0830s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T21:14:58+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:15:10+08:00 ] 127.0.0.1 /Home/Index/lists/id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 9,9   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='45' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T21:15:47+08:00 ] 127.0.0.1 /Home/Index/lists/id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 9,9   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='45' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-11-17T21:16:05+08:00 ] 127.0.0.1 /Home/Index/lists/id/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-17T21:16:25+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22')  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 0,9   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T21:16:28+08:00 ] 127.0.0.1 /Home/Index/lists/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='6' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('43','44','45')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='45' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-17T21:16:36+08:00 ] 127.0.0.1 /Home/Index/lists/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='6' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('43','44','45')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='45' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T21:16:44+08:00 ] 127.0.0.1 /Home/Index/lists/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='2' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('23','24','25','26','27','28','29','30')  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+NOTIC: [8] Undefined index: link D:\wamp64\www\tpcms\Application\Runtime\Cache\Home\72653c5b98bacce026832b51aa92934a.php 第 359 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T21:19:26+08:00 ] 127.0.0.1 /Home/Index/lists/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='2' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('23','24','25','26','27','28','29','30') LIMIT 0,9   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:19:32+08:00 ] 127.0.0.1 /Home/Index/lists/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='6' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('43','44','45') LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='45' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-11-17T21:19:36+08:00 ] 127.0.0.1 /Home/Index/lists/id/6/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='6' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('43','44','45') LIMIT 9,9   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:19:38+08:00 ] 127.0.0.1 /Home/Index/lists/id/6/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='6' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('43','44','45') LIMIT 0,9   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='45' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-11-17T21:19:41+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22') LIMIT 0,9   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:19:46+08:00 ] 127.0.0.1 /Home/Index/lists/id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22') LIMIT 9,9   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:21:05+08:00 ] 127.0.0.1 /Home/Index/lists/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='18' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE ( category_id='18' ) LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:21:08+08:00 ] 127.0.0.1 /Home/Index/lists/id/18/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='18' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE ( category_id='18' ) LIMIT 9,9   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-11-17T21:21:10+08:00 ] 127.0.0.1 /Home/Index/lists/id/18/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='18' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE ( category_id='18' ) LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T21:21:26+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22') LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T21:21:54+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22') LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:26:08+08:00 ] 127.0.0.1 /Home/Index/lists/id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22') LIMIT 9,9   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-11-17T21:44:22+08:00 ] 127.0.0.1 /Home/Index/lists/id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22') LIMIT 9,9   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2016-11-17T21:44:49+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22') LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:44:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T21:45:37+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22') LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-17T21:45:39+08:00 ] 127.0.0.1 /Home/Index/lists/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='6' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('43','44','45') LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='45' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T21:45:41+08:00 ] 127.0.0.1 /Home/Index/lists/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='2' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('23','24','25','26','27','28','29','30') LIMIT 0,9   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T21:45:43+08:00 ] 127.0.0.1 /Home/Index/lists/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='3' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('31','32','33','34') LIMIT 0,9   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:45:44+08:00 ] 127.0.0.1 /Home/Index/lists/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='4' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('35','36','37','38') LIMIT 0,9   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:45:45+08:00 ] 127.0.0.1 /Home/Index/lists/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='5' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('39','40','41','42','90') LIMIT 0,9   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T21:45:46+08:00 ] 127.0.0.1 /Home/Index/lists/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='7' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('46','47','48') LIMIT 0,9   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:45:49+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22') LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-17T21:57:51+08:00 ] 127.0.0.1 /Home/Index/lists/id/1.html?q=%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('18','15','16','17','13','14','8','9','10','11','12','19','20','21','22') LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:58:02+08:00 ] 127.0.0.1 /Home/Index/lists/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `category` WHERE ( parent_id='6' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE `category_id` IN ('43','44','45') LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='45' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T21:58:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-17T21:58:10+08:00 ] 127.0.0.1 /?q=%E9%85%A5%E9%A5%BC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-11-17T21:58:17+08:00 ] 127.0.0.1 /?q=%E9%85%A5%E9%A5%BC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp64\www\tpcms\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

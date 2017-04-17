@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0023)http://www.meishij.net/ -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>美食杰</title>
+    <meta name="keywords"
+          content="美食,美食网,菜谱,菜谱网,美食地图,食谱,食谱网,特色食谱,特色美食,美食大全家常菜谱,菜谱大全,美食网站,特色菜谱,最新菜谱,美食分享,美食加盟,人气美食,菜谱分享,餐饮加盟,特色小吃,美食文化">
+    <meta name="description"
+          content="美食杰 - 中国最优质的美食，食谱，菜谱网。做你最喜爱的美食网，菜谱网。提供最人性化的菜谱大全,食谱家常菜，家常菜谱大全的美食网,让人们在宣泄的都市中体验在家常做菜,享受美食的乐趣.找家常菜谱,上美食杰菜谱美食网">
+    <meta content="www.meishij.net" name="author">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <link rel="stylesheet" type="text/css" media="all" href="__PUBLIC__/assets/css/ss_base.css">
+    <link rel="stylesheet" type="text/css" media="all" href="__PUBLIC__/assets/css/main.css">
+    <link rel="stylesheet" type="text/css" media="all" href="__PUBLIC__/assets/css/index.css">
+    <link rel="stylesheet" type="text/css" media="all" href="__PUBLIC__/assets/css/content.css">
+    <link rel="stylesheet" type="text/css" media="all" href="__PUBLIC__/assets/css/tipswindown.css">
+    <link rel="stylesheet" type="text/css" media="all" href="__PUBLIC__/assets/css/list.css">
+
+    <block name="css"></block>
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=100">
+    <meta http-equiv="Expires" content="Thu, 10 Nov 2016 06:35:05 GMT">
+
+
+</head>
+<body>
+<div class="adinheader">
+    <div class="adinheader_w">
+
+    </div>
+</div>
+<div class="header">
+    <div class="header_c">
+        <a href="http://www.meishij.net/" class="logo pngFix"><img src="__PUBLIC__/assets/images/1.jpg" alt=""/></a>
+        <div class="main_search_top_w">
+            <div class="suggestionsBox" id="suggestions" style="display:none;">
+                <ul class="suggestionList" id="autoSuggestionsList"></ul>
+            </div>
+            <form class="search" action="">
+                <input type="text" class="text" name="q" defaultval="请输入菜谱/食材/菜单/作者" x-webkit-speech="" value="请输入菜谱/食材/菜单/作者" autocomplete="off" onfocus="if(this.value=='请输入菜谱/食材/菜单/作者'){this.value='';}$(this).css('color','#333');" onblur="if(this.value==''){this.value='请输入菜谱/食材/菜单/作者';$(this).css('color','#999');}" href="/ajax/ajaxtitle.php" id="input_string" style="color: rgb(153, 153, 153);">
+                <input type="submit" class="submit" value="搜 索">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="nav">
+    <ul id="main_nav">
+        <li class="current"><a href="http://tpcms.app/" class="link pngFix"><strong>首页</strong></a></li>
+        <volist name="categories" id="category">
+            <li class="hasmore on">
+                <a href="{{$category.link}}" class="link pngFix"><strong id="demo">{{$category.name}}</strong></a>
+                <div class="dw clearfix">
+                    <div class="dww clearfix dww_cpdq">
+                        <div class="dwitem clearfix pngFix">
+                            <dl class="clearfix">
+
+                                <volist name="category.children" id="c">
+                                    <dd><a href="{{$c.link}}">{{$c.name}}</a></dd>
+                                </volist>
+
+
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </volist>
+    </ul>
+</div>
+<div class="main_search main_search_slideUp pngFix" slideup="1" style="bottom: -56px; padding-top: 9px;"
+     id="main_search">
+    <div class="main_search_w">
+        <div class="searchform_div">
+            <form action="http://so.meishi.cc/" target="_blank"><input type="text" class="text" name="q"
+                                                                       x-webkit-speech="" autocomplete="off"
+                                                                       id="inputString" placeholder="输入菜谱、食材、作者"><input
+                    type="submit" class="submit" value="搜 索"></form>
+        </div>
+        <span id="searchslideup_btn" class="pngFix" style="background-position:0px -48px;">自动收缩</span>
+        <!--        <a href="http://www.meishij.net" class="bottomlogo_60"><img src="http://static.meishij.net/images/bottomlogo_60.png"></a>-->
+        <!--		--><!--<span id="searchslideup_btn" class="pngFix"--><!---->自动收缩--&gt;    </div>
+</div>
+<div class="bottom_back_top_top bottom_back_top_top_slideUp" id="bottom_back_top_top"
+     style="left: 1169px; bottom: 20px;"><a href="http://www.meishij.net/#" class="backtotop pngFix">回到顶部</a></div>
+
+<div id="main">
+    <block name="content"></block>
+</div>
+
+<div class="main_footer pngFix">
+
+    <div class="footer_con2">
+        <dl class="friend_link clearfix">
+            <dt>友情链接</dt>
+            <volist name="links" id="l">
+            <dd><a target="_blank" href="{{$l.url}}" title="{{$l.name}}">{{$l.name}}</a></dd>
+            </volist>
+        </dl>
+    </div>
+    <div class="footer_con3">
+        <ul class="clearfix">
+            <li><a target="_blank" href="http://www.meishij.net/siteinfo/index.php" title="公司简介">公司简介</a></li>
+            <li><a target="_blank" href="http://www.meishij.net/siteinfo/index.php#qywh" title="企业文化">企业文化</a></li>
+            <li><a target="_blank" href="http://www.meishij.net/siteinfo/index.php#gsdt" title="公司动态">公司动态</a></li>
+            <li><a target="_blank" href="http://www.meishij.net/siteinfo/index.php#mzsm" title="免责声明">免责声明</a></li>
+            <li><a target="_blank" href="http://www.meishij.net/siteinfo/contact.php" title="联系我们">联系我们</a></li>
+            <li><a target="_blank" href="http://www.meishij.net/siteinfo/hr.php" title="招贤纳士">招贤纳士</a></li>
+            <li><a target="_blank" href="http://www.meishij.net/siteinfo/bd.php" title="商务合作">商务合作</a></li>
+            <li><a target="_blank" href="http://www.meishij.net/siteinfo/maps.php" title="网站地图">网站地图</a></li>
+            <li><a target="_blank" href="http://www.meishij.net/siteinfo/links.php" title="友情链接">友情链接</a></li>
+            <li><a target="_blank" href="http://sj.meishi.cc/" title="美食杰移动APP">美食杰移动APP</a></li>
+        </ul>
+        <p><a target="_blank" href="http://www.miibeian.gov.cn/" class="gray_a">京ICP证150335号</a>/京公网安备11010802009977
+            Copyright © 2003-2016 MEISHIJ CO.,LTD.</p>
+    </div>
+</div>
+<div style="display:none;">
+    <script type="text/javascript" src="__PUBLIC__/assets/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/assets/js/list.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/assets/js/main.js"></script>
+    <span id="cnzz_stat_icon_1259001544"></span>
+    <script src="__PUBLIC__/assets/stat.php" type="text/javascript"></script>
+    <script src="__PUBLIC__/assets/qrcode_wap.php" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#main_nav li").hover(function () {
+                $(this).siblings().removeClass("on");
+                $(this).addClass("on");
+            }, function () {
+                $(this).removeClass("on");
+            });
+            $("#main_nav li").click(function () {
+                $(this).css("border-bottom-color", "red").show();
+
+            })
+        })
+
+    </script>
+    <block name="js"></block>
+</div>
+</body>
+</html>

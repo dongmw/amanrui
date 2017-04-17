@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wycms</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="__PUBLIC__/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/css/common.css" rel="stylesheet">
+    <block name="css"></block>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top col-md-10">
+    <div class="container-fluid nav_bg">
+        <div class="navbar-header">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="{{:U('Index/index')}}">
+                        <span class='glyphicon glyphicon-home' aria-hidden='true'></span> 長樂未央
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                        <span class='glyphicon glyphicon-th' aria-hidden='true'></span> 內容管理 <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li>
+                            <a href="{{:U('Category/index')}}">分类管理</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="{{:U('Article/index')}}">文章列表</a>
+                        </li>
+                        <li>
+                            <a href="{{:U('Article/create')}}">新增文章</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="{{:U('File/index')}}">
+                        <span class='glyphicon glyphicon-file' aria-hidden='true'></span> 文件管理
+                    </a>
+                </li>
+
+                <li>
+                    <!--路径的写法不同，避免和前面的"/"发生冲突，所以不能使用"U"方法-->
+                    <a href="/index.php?m=Admin&c=files">
+                        <span class='glyphicon glyphicon-folder-open' aria-hidden='true'></span> 文件设置
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{{:U('Link/index')}}">
+                        <span class='glyphicon glyphicon-link' aria-hidden='true'></span> 友情链接
+                    </a>
+                </li>
+                <li>
+                    <a href="{{:U('System/config')}}">
+                        <span class='glyphicon glyphicon-wrench' aria-hidden='true'></span> 系统设置
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{{:U('Recycle/index')}}">
+                        <span class='glyphicon glyphicon-floppy-remove' aria-hidden='true'></span> 回收站
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{$user.username|ucfirst}} 管理员 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="{{:U('User/logout')}}">安全退出</a></li>
+                        <li><a href="{{:U('System/change_password')}}">修改密码</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="main">
+    <block name="content"></block>
+</div>
+
+
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="__PUBLIC__/bootstrap/js/bootstrap.min.js"></script>
+<block name="js"></block>
+</body>
+</html>

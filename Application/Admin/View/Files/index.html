@@ -1,0 +1,100 @@
+<extend name="./Application/Admin/View/Layout/application.html"/>
+
+<block name="css">
+    <style>
+        div {
+            /* 设置宽度为300px */
+
+            /* 设置高度为300px */
+
+            /* 设置边框为1px的线条 */
+
+            /* 设置内边距为5px */
+
+            /* 设置外边距为10px*/
+            margin-bottom: -15px;
+        }
+    </style>
+
+</block>
+
+<block name="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="panel panel-default">
+                    <div class="panel-heading">文件设置</div>
+
+                    <div class="panel-body">
+
+                        <table class="table table-hover">
+                            <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>文件名</th>
+                                <th>文件大小</th>
+                                <th>类型</th>
+                                <th>创建时间</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <volist name="data" id="d">
+                                <tr>
+                                    <td>{{$key+1}}</td>
+                                    <td>{{$d.name}}</td>
+                                    <td>{{$d.size}}</td>
+                                    <td>{{$d.type}}</td>
+                                    <td>{{$d.ctime|date="Y-m-d H:i:s",###}}</td>
+
+                                    <td>
+                                        <if condition="$d.eng_type eq 'dir'">
+
+                                            <a href="{{:U('index', array('path'=>$path.'/'.$d['name']))}}">
+                                                <span class="glyphicon glyphicon-log-in"></span>
+                                            </a>
+                                            <elseif condition="$d.is_img eq '1'"/>
+                                            <a href="{{:U('show',array('path'=>$path.'/'.$d['name']))}}">
+                                                <span class="glyphicon glyphicon-eye-open"></span>
+                                            </a>
+                                            <a href="{{:U('download', array('path'=>$path.'/'.$d['name']))}}">
+                                                <span class="glyphicon glyphicon-download"></span>
+                                            </a>
+                                            <else/>
+                                            <a href="{{:U('edit', array('path'=>$path.'/'.$d['name']))}}">
+                                                <span class="glyphicon glyphicon-pencil"></span>
+                                            </a>
+                                            <a href="{{:U('download', array('path'=>$path.'/'.$d['name']))}}">
+                                                <span class="glyphicon glyphicon-download"></span>
+                                            </a>
+                                        </if>
+                                        <a href="{{:U('destroy', array('path'=>$path.'/'.$d['name']))}}">
+                                            <span class="glyphicon glyphicon-trash"></span>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="list-group">
+                    <a href="{{:U('create', array('path'=>$path))}}" class="list-group-item list-group-item-success">
+                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> 新增 (add)
+                    </a>
+                </div>
+                <div class="list-group">
+                    <a href="{{:U('upload', array('path'=>$path))}}" class="list-group-item list-group-item-success">
+                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> 上传 (add)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</block>
+
+<block name="js"></block>

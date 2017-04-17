@@ -1,0 +1,117 @@
+<extend name="./Application/Admin/View/Layout/application.html" />
+
+<block name="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10">
+
+                <div class="page-header">
+                    <h1>長樂未央 <small>簡明、易用</small></h1>
+                </div>
+
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">我的信息</div>
+
+                    <div class="panel-body">
+                        <div class="col-md-6">
+                            <table class="table table-hover ">
+                                <thead>
+                                <tr>
+                                    <th colspan="2">系统信息</th>
+
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>長樂未央系統版本:</td>
+                                    <td>{{$server_info.canon_version}}</td>
+                                </tr>
+                                <tr>
+                                    <td>操作系統:</td>
+                                    <td>{{$server_info.os}}</td>
+                                </tr>
+                                <tr>
+                                    <td>運行環境:</td>
+                                    <td>{{$server_info.server_software}}</td>
+                                </tr>
+                                <tr>
+                                    <td>PHP運行方法:</td>
+                                    <td>{{$server_info.php}}</td>
+                                </tr>
+                                <tr>
+                                    <td>MySQL版本:</td>
+                                    <td>{{$server_info.mysql}}</td>
+                                </tr>
+                                <tr>
+                                    <td>上傳限制:</td>
+                                    <td>{{$server_info.upload}}</td>
+                                </tr>
+                                <tr>
+                                    <td>核心版本:</td>
+                                    <td>{{$server_info.core}}</td>
+                                </tr>
+                                <tr>
+                                    <td>已用空間:</td>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="{{$server_info.already_used}}" aria-valuemin="0" aria-valuemax="{{$server_info.total_space}}" style="width:{{$server_info.already_used_percent}}%">
+                                                <span class="sr-only">25% Complete</span>
+                                            </div>
+                                            <div>
+                                                <span class="percent">{{$server_info.already_used_percent}}%</span>
+                                                <span class="stat">{{$server_info.already_used}} / {{$server_info.total_space}} MB</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="col-md-6">
+                            <table class="table table-bordered ">
+                                <thead>
+                                <tr>
+                                    <th colspan="2">站點信息</th>
+
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>標題 (title):</td>
+                                    <td>{{$info.title}}</td>
+                                </tr>
+                                <tr>
+                                    <td>關鍵詞 (keywords):</td>
+                                    <td>{{$info.keyword}}</td>
+                                </tr>
+                                <tr>
+                                    <td>描述信息 (description):</td>
+                                    <td>{{$info.description}}</td>
+                                </tr>
+                                <tr>
+                                    <td>所有者 (author):</td>
+                                    <td>{{$info.author}}</td>
+                                </tr>
+                                <tr>
+                                    <td>版權信息 (copyright):</td>
+                                    <td>{{$info.copyright}}</td>
+                                </tr>
+                                <tr>
+                                    <td>備案號 (icp):</td>
+                                    <td>{{$info.icp}}</td>
+                                </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</block>

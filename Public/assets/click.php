@@ -1,0 +1,1 @@
+window.document.getElementById('viewclicknum').innerHTML=640;

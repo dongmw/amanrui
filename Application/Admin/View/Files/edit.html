@@ -1,0 +1,62 @@
+<extend name="./Application/Admin/View/Layout/application.html"/>
+
+<block name="css">
+    <style>
+        .page2 {
+            display: none;
+        }
+    </style>
+</block>
+<block name="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10">
+
+                <div class="page-header">
+                    <h1>長樂未央
+                        <small>簡明、易用</small>
+                    </h1>
+                </div>
+
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">文件管理</div>
+
+                    <div class="panel-body">
+
+                        <form class="form-horizontal" role="form" method="post"
+                              action="{{:U('update', array('path'=>$path))}}">
+                            <div class="form-group">
+                                <label for="name" class="col-sm-2 control-label">文件名</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="name" name="name"
+                                           value="{{$name}}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="content" class="col-sm-2 control-label">内容</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" name="content" id="content" cols="30" rows="10">{{$content}}</textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-success">修 改</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</block>
+
+<block name="js">
+    <script>
+
+    </script>
+</block>

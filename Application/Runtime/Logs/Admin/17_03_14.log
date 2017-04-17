@@ -1,0 +1,1348 @@
+[ 2017-03-14T10:51:30+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user F:\wamp64\www\amanrui\Application\Admin\Controller\CommonController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T10:51:33+08:00 ] 127.0.0.1 /Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-14T10:51:34+08:00 ] 127.0.0.1 /Admin/User/verify/?0.17039855028023476
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-14T10:52:10+08:00 ] 127.0.0.1 /Admin/User/do_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'dongmw1991' AND `password` = '4d4c161fa3507682d3d6aa8a61de63c8' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T10:52:11+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user F:\wamp64\www\amanrui\Application\Admin\Controller\CommonController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE ( token='e0cc49cc702e54b74c8874742d48d0fa' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant CANONPD_VERSION - assumed 'CANONPD_VERSION' F:\wamp64\www\amanrui\Application\Admin\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T10:52:14+08:00 ] 127.0.0.1 /Admin/File/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-14T10:52:25+08:00 ] 127.0.0.1 /index.php?m=Admin&c=files
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/1): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/assets): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap-colorpicker): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap-datepicker): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/ckeditor): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/ckfinder): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/css): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/images): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/select2): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-14T10:52:35+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Files&a=download&path=F%3A%5Cwamp64%5Cwww%5Camanrui%2FPublic%2FREADME.md
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T10:52:44+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Files&a=upload&path=F%3A%5Cwamp64%5Cwww%5Camanrui%2FPublic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-14T10:52:53+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Files&a=do_upload&path=F%3A%5Cwamp64%5Cwww%5Camanrui%2FPublic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp64\www\amanrui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T10:52:54+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Files&a=index&path=F%3A%5Cwamp64%5Cwww%5Camanrui%2FPublic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/1): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/assets): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap-colorpicker): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap-datepicker): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/ckeditor): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/ckfinder): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/css): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/images): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/select2): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-14T10:53:02+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Files&a=show&path=F%3A%5Cwamp64%5Cwww%5Camanrui%2FPublic%2F1489459973_1000000.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T10:53:12+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Files&a=index&path=F%3A%5Cwamp64%5Cwww%5Camanrui%2FPublic%2Fassets
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/assets/css): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/assets/images): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/assets/js): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T10:53:14+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Files&a=index&path=F%3A%5Cwamp64%5Cwww%5Camanrui%2FPublic%2Fassets%2Fimages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-03-14T10:53:16+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Files&a=show&path=F%3A%5Cwamp64%5Cwww%5Camanrui%2FPublic%2Fassets%2Fimages%2F08abdd119c866debcb03c6ea961540a4_150x150.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T10:53:25+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Files&a=show&path=F%3A%5Cwamp64%5Cwww%5Camanrui%2FPublic%2Fassets%2Fimages%2F20160307165655_197.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T10:54:22+08:00 ] 127.0.0.1 /index.php?m=Admin&c=File&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-14T11:29:08+08:00 ] 127.0.0.1 /Admin/File/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-03-14T11:29:11+08:00 ] 127.0.0.1 /index.php?m=Admin&c=files
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/1): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/assets): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap-colorpicker): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap-datepicker): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/ckeditor): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/ckfinder): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/css): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/images): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/select2): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:32:04+08:00 ] 127.0.0.1 /index.php?m=Admin&c=File&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T11:32:07+08:00 ] 127.0.0.1 /index.php?m=Admin&c=files
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/1): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/assets): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap-colorpicker): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap-datepicker): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/ckeditor): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/ckfinder): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/css): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/images): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/select2): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:32:10+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Link&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `link` ORDER BY sort_order  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T11:32:12+08:00 ] 127.0.0.1 /index.php?m=Admin&c=files
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/1): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/assets): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap-colorpicker): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap-datepicker): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/ckeditor): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/ckfinder): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/css): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/images): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/select2): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:32:14+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Files&a=create&path=F%3A%5Cwamp64%5Cwww%5Camanrui%2FPublic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\ff7f36185ede8ee5aee1fc4afd977cf2.php 第 125 行.
+NOTIC: [8] Undefined variable: content F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\ff7f36185ede8ee5aee1fc4afd977cf2.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:32:28+08:00 ] 127.0.0.1 /index.php?m=Admin&c=files
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/1): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/assets): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap-colorpicker): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap-datepicker): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/ckeditor): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/ckfinder): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/css): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/images): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/select2): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T11:32:30+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Files&a=upload&path=F%3A%5Cwamp64%5Cwww%5Camanrui%2FPublic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T11:32:43+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Files&a=do_upload&path=F%3A%5Cwamp64%5Cwww%5Camanrui%2FPublic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+NOTIC: [2] finfo_file(): Empty filename or path F:\wamp64\www\amanrui\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T13:23:55+08:00 ] 127.0.0.1 /index.php?m=Admin&c=File&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user F:\wamp64\www\amanrui\Application\Admin\Controller\CommonController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE ( token='e0cc49cc702e54b74c8874742d48d0fa' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T13:23:57+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant CANONPD_VERSION - assumed 'CANONPD_VERSION' F:\wamp64\www\amanrui\Application\Admin\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T13:24:00+08:00 ] 127.0.0.1 /Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T13:24:02+08:00 ] 127.0.0.1 /Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0770s ]
+SQL: SELECT * FROM `article` WHERE ( status=1 ) ORDER BY id LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-14T13:24:05+08:00 ] 127.0.0.1 /Admin/Article/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-03-14T13:24:08+08:00 ] 127.0.0.1 /Admin/File/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T13:24:12+08:00 ] 127.0.0.1 /index.php?m=Admin&c=files
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/1): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/assets): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap-colorpicker): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap-datepicker): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/ckeditor): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/ckfinder): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/css): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/images): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/select2): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T13:24:15+08:00 ] 127.0.0.1 /index.php?m=Admin&c=File&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T13:24:20+08:00 ] 127.0.0.1 /index.php?m=Admin&c=files
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] Declaration of Admin\Controller\FilesController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\wamp64\www\amanrui\Application\Admin\Controller\FilesController.class.php 第 3 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/1): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/assets): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap-colorpicker): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/bootstrap-datepicker): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/ckeditor): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/ckfinder): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/css): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/images): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+NOTIC: [2] getimagesize(F:\wamp64\www\amanrui/Public/select2): failed to open stream: Permission denied F:\wamp64\www\amanrui\Application\Common\Common\function.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+NOTIC: [8] Undefined index: ctime F:\wamp64\www\amanrui\Application\Runtime\Cache\Admin\f8d9cd95ba8a8e43459245ea432d2d75.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T13:24:25+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Link&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `link` ORDER BY sort_order  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-14T13:24:29+08:00 ] 127.0.0.1 /Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T13:24:31+08:00 ] 127.0.0.1 /Admin/Link/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `link` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `link` ORDER BY sort_order  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T13:24:31+08:00 ] 127.0.0.1 /Admin/System/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T13:24:35+08:00 ] 127.0.0.1 /Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T13:24:37+08:00 ] 127.0.0.1 /Admin/Recycle/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE ( status=0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T13:30:48+08:00 ] 127.0.0.1 /Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `article` WHERE ( status=1 ) ORDER BY id LIMIT 0,9   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-14T13:30:50+08:00 ] 127.0.0.1 /Admin/Article/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

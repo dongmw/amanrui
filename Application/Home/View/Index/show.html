@@ -1,0 +1,293 @@
+<extend name="./Application/Home/View/Layout/index.html"/>
+<block name="css">
+    <link rel="stylesheet" type="text/css" media="all" href="__PUBLIC__/assets/css/list.css">
+    <link rel="stylesheet" type="text/css" media="all" href="__PUBLIC__/assets/css/content.css">
+</block>
+
+<block name="content">
+    <!--<div class="main_w clearfix">-->
+    <div class="main clearfix">
+        <ul class="pathstlye1">
+            <li><a id="tongji_shouye" href="">首页</a></li>
+            <li> &gt; </li>
+            <li><a id="tongji_caipudaquan" href="">{{$category.name}}</a></li>
+            <li> &gt; </li>
+            <li>
+                <a id="tongji_toolbar_10270" class="curzt" href="">{{$fenlei.name}}</a>
+            </li>
+        </ul>
+        <div class="cp_header clearfix">
+            <div class="cp_headerimg_w"><img alt="{{$article.title}}"
+                                             src="{{$article.thumb}}"></div>
+            <div class="cp_main_info_w">
+                <div class="info1">
+                    <h1 class="title">
+                        <a id="tongji_title" title="{{$article.title}}" href="">{{$article.title}}</a>
+                    </h1>
+                    <div class="erweima_t" id="erweima_t"></div>
+                    <div class="ewmbox" id="ewmbox">
+
+
+                    <span class="favbtns">
+                        <a href="javascript:add_fav(1802555)" title="韭菜花木耳炒鱼皮的做法" class="addToFav_con"
+                           id="addToFav_con">收藏<span id="f_num"></span></a><div id="bdshare"
+                                                                                class="bdshare_b"><div
+                            class="bdsharebuttonbox" data-tag="share_1"
+                            style="height:50px;width:168px;background:#f5f5f5;position:relative;float:left;line-height:50px;"><a
+                            class="bds_more" data-cmd="more"
+                            style="display:block;position:absolute;left:0px;top:0px;height:48px;width:167px;text-indent:-9999px;background:none;margin:0px;padding:0px;border:1px solid #e5e5e5;border-left:0px;">更多</a><span
+                            style="display:block;height:50px;font-size:14px;font-weight:bold;color:#999;width:78px;text-align:right;float:left;">分享到：</span><a
+                            class="bds_sqq" data-cmd="sqq" style="margin-top:17px;position:relative;"></a><a
+                            class="bds_qzone" data-cmd="qzone"
+                            href="http://www.meishij.net/zuofa/jiucaihuamuerchaoyupi.html#"
+                            style="margin-top:17px;position:relative;"></a><a class="bds_tsina" data-cmd="tsina"
+                                                                              style="margin-top:17px;position:relative;"></a></div></div></span>
+                    </div>
+                    <div class="info2">
+                        <ul class="clearfix">
+                            <li class="w127"><strong>工艺</strong>
+                                <a id="tongji_gy" href="javascript:;" title="韭菜花木耳炒鱼皮的工艺" class="big">炒</a>
+                            </li>
+                            <li class="w270"><strong>难度</strong>
+                                <div class="processing_w"><span class="icon icon_nd"></span>
+                                    <span class="processing processing_nd1"></span>
+                                    <a id="tongji_nd" href="javascript:;" title="{{$article.title}}的难度" class="small">新手尝试</a>
+                                </div>
+                            </li>
+                            <li class="w270 br0"><strong>人数</strong>
+                                <div class="processing_w"><span class="icon icon_rs"></span><span
+                                        class="processing processing_nd9"></span><a id="tongji_rsh" href="javascript:;"
+                                                                                    title="韭菜花木耳炒鱼皮的人数"
+                                                                                    class="small">3人份</a></div>
+                            </li>
+                            <li class="w127 bb0"><strong>口味</strong><a id="tongji_kw" href="javascript:;"
+                                                                       title="韭菜花木耳炒鱼皮的口味" class="big">家常味</a></li>
+                            <li class="w270 bb0"><strong>准备时间</strong>
+                                <div class="processing_w"><span class="icon icon_zb"></span><span
+                                        class="processing processing_nd3"></span><a id="tongji_zbsj" href="javascript:;"
+                                                                                    title="韭菜花木耳炒鱼皮的准备时间"
+                                                                                    class="small">10分钟</a></div>
+                            </li>
+                            <li class="w270 bb0 br0"><strong>烹饪时间</strong>
+                                <div class="processing_w"><span class="icon icon_pr"></span><span
+                                        class="processing processing_nd3"></span><a href="javascript:;" id="tongji_prsj"
+                                                                                    title="韭菜花木耳炒鱼皮的烹饪时间" class="small">
+                                    &lt;10分钟</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info3">
+                        <div class="user">
+                            <a target="_blank" id="tongji_author_img" href="http://i.meishi.cc/cook.php?id=4152544"
+                               class="img"><img src="__PUBLIC__/assets/images/t4152544_146735079253533.jpg"><span
+                                    class="masker pngFix"></span></a>
+                            <div class="info">
+                                <h4>
+                                    <a id="tongji_author" target="_blank"
+                                       href="http://i.meishi.cc/cook.php?id=4152544">火镀红叶</a>
+                                    <a target="_blank" class="v_small" href="http://i.meishi.cc/expert/" title="达人"
+                                       _hover-ignore="1"></a>
+                                </h4>
+                                <span>菜谱：338　/　关注：41　/　粉丝：4736</span>
+                                <strong>2016-11-13　/　<em id="viewclicknum">640</em>人看过</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cp_body clearfix">
+                <div class="cp_body_left">
+                    <div class="materials">
+                        <p><strong>“</strong>海鲩的鱼皮挺爽实的，炒起来不易烂，搭上韭菜花和木耳，好吃又下饭。<strong>”</strong></p>
+                        <strong class="cpc_h2">用料</strong>
+                        <div class="materials_box">
+                            <div class="yl zl clearfix">
+                                <h3><a href="javascript:;" title="韭菜花木耳炒鱼皮的主料">主料</a></h3>
+                                <ul class="clearfix">
+                                    <li class=""><a target="_blank" href="" class="img">
+                                        <img src="{{$article.thumb}}"></a>
+                                        <div class="c"><h4><a target="_blank"
+                                                              href="http://www.meishij.net/%E9%B1%BC%E7%9A%AE">鱼皮</a><span>200克</span>
+                                        </h4><a href="http://www.meishij.net/zuofa/jiucaihuamuerchaoyupi.html#"
+                                                class="fortb" data-type="2" biz-keyword="鱼皮 鲜" biz-category="50016422"
+                                                data-style="1" data-tmpl="290x380" target="_blank"></a></div>
+                                    </li>
+                                    <li class="br0"><a target="_blank"
+                                                       href="http://www.meishij.net/%E9%9F%AD%E8%8F%9C%E8%8A%B1"
+                                                       class="img"><img
+                                            src="__PUBLIC__/assets/images/f2909bfba5f269c673d95964ef5fa92a_60x60.jpg"></a>
+                                        <div class="c"><h4><a target="_blank"
+                                                              href="http://www.meishij.net/%E9%9F%AD%E8%8F%9C%E8%8A%B1">韭菜花</a><span>100克</span>
+                                        </h4><a href="http://www.meishij.net/zuofa/jiucaihuamuerchaoyupi.html#"
+                                                class="fortb" data-type="2" biz-keyword="韭菜花 鲜" biz-category="50016422"
+                                                data-style="1" data-tmpl="290x380" target="_blank"></a></div>
+                                    </li>
+                                    <li class=""><a target="_blank"
+                                                    href="http://www.meishij.net/%E6%9C%A8%E8%80%B3(%E6%B0%B4%E5%8F%91)"
+                                                    class="img"><img
+                                            src="__PUBLIC__/assets/images/47e2a979fc424662c3eb65426605a68c_60x60.jpg"></a>
+                                        <div class="c"><h4><a target="_blank"
+                                                              href="http://www.meishij.net/%E6%9C%A8%E8%80%B3(%E6%B0%B4%E5%8F%91)">木耳干</a><span>10克</span>
+                                        </h4><a href="http://www.meishij.net/zuofa/jiucaihuamuerchaoyupi.html#"
+                                                class="fortb" data-type="2" biz-keyword="木耳干 鲜" biz-category="50016422"
+                                                data-style="1" data-tmpl="290x380" target="_blank"></a></div>
+                                    </li>
+                                    <li class="br0"><a target="_blank" href="http://www.meishij.net/%E5%A7%9C"
+                                                       class="img"><img
+                                            src="__PUBLIC__/assets/images/f8c7dfc3756fa9bd82f4559f6eeb39ce_60x60.jpg"></a>
+                                        <div class="c"><h4><a target="_blank"
+                                                              href="http://www.meishij.net/%E5%A7%9C">姜</a><span>10克</span>
+                                        </h4><a href="http://www.meishij.net/zuofa/jiucaihuamuerchaoyupi.html#"
+                                                class="fortb" data-type="2" biz-keyword="姜 鲜" biz-category="50016422"
+                                                data-style="1" data-tmpl="290x380" target="_blank"></a></div>
+                                    </li>
+                                    <li class=""><a target="_blank" href="http://www.meishij.net/%E8%91%B1" class="img"><img
+                                            src="__PUBLIC__/assets/images/37f498cd548cd6839138f8e8a5a97d22_60x60.jpg"></a>
+                                        <div class="c"><h4><a target="_blank"
+                                                              href="http://www.meishij.net/%E8%91%B1">葱</a><span>10克</span>
+                                        </h4><a href="http://www.meishij.net/zuofa/jiucaihuamuerchaoyupi.html#"
+                                                class="fortb" data-type="2" biz-keyword="葱 鲜" biz-category="50016422"
+                                                data-style="1" data-tmpl="290x380" target="_blank"></a></div>
+                                    </li>
+                                    <li class="br0 bb0"><a target="_blank"
+                                                           href="http://www.meishij.net/%E7%99%BD%E7%9A%AE%E8%92%9C"
+                                                           class="img"><img
+                                            src="__PUBLIC__/assets/images/shicai25528_60x60.jpg"></a>
+                                        <div class="c"><h4><a target="_blank"
+                                                              href="http://www.meishij.net/%E7%99%BD%E7%9A%AE%E8%92%9C">蒜头</a><span>5克</span>
+                                        </h4><a href="http://www.meishij.net/zuofa/jiucaihuamuerchaoyupi.html#"
+                                                class="fortb" data-type="2" biz-keyword="蒜头 鲜" biz-category="50016422"
+                                                data-style="1" data-tmpl="290x380" target="_blank"></a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="yl fuliao clearfix">
+                                <h3><a href="javascript:;" title="韭菜花木耳炒鱼皮的辅料">辅料</a></h3>
+                                <ul class="clearfix">
+                                    <li class=""><h4><a target="_blank"
+                                                        href="http://www.meishij.net/%E7%B2%BE%E7%9B%90">盐</a></h4>
+                                        <span>2小匙</span><a
+                                                href="http://www.meishij.net/zuofa/jiucaihuamuerchaoyupi.html#"
+                                                class="fortb" data-type="2" biz-keyword="盐 鲜"
+                                                biz-category="50016422" data-style="1" data-tmpl="290x380"
+                                                target="_blank"></a></li>
+                                    <li class="br0"><h4><a target="_blank"
+                                                           href="http://www.meishij.net/%E8%83%A1%E6%A4%92%E7%B2%89">胡椒粉</a>
+                                    </h4><span>1小匙</span><a
+                                            href="http://www.meishij.net/zuofa/jiucaihuamuerchaoyupi.html#"
+                                            class="fortb" data-type="2" biz-keyword="胡椒粉 鲜"
+                                            biz-category="50016422" data-style="1" data-tmpl="290x380"
+                                            target="_blank"></a></li>
+                                    <li class=""><h4><a target="_blank"
+                                                        href="http://www.meishij.net/%E9%B8%A1%E7%B2%89">鸡粉</a></h4>
+                                        <span>1小匙</span><a
+                                                href="http://www.meishij.net/zuofa/jiucaihuamuerchaoyupi.html#"
+                                                class="fortb"
+                                                data-type="2" biz-keyword="鸡粉 鲜" biz-category="50016422" data-style="1"
+                                                data-tmpl="290x380" target="_blank"></a></li>
+                                    <li class="br0"><h4><a target="_blank" href="http://www.meishij.net/%E7%B3%96">糖</a>
+                                    </h4><span>1小匙</span><a
+                                            href="http://www.meishij.net/zuofa/jiucaihuamuerchaoyupi.html#"
+                                            class="fortb" data-type="2" biz-keyword="糖 鲜"
+                                            biz-category="50016422" data-style="1" data-tmpl="290x380"
+                                            target="_blank"></a></li>
+                                    <li class=""><h4><a target="_blank"
+                                                        href="http://www.meishij.net/%E7%94%9F%E7%B2%89">生粉</a></h4>
+                                        <span>2小匙</span><a
+                                                href="http://www.meishij.net/zuofa/jiucaihuamuerchaoyupi.html#"
+                                                class="fortb"
+                                                data-type="2" biz-keyword="生粉 鲜" biz-category="50016422" data-style="1"
+                                                data-tmpl="290x380" target="_blank"></a></li>
+                                    <li class="br0 bb0"><h4><a target="_blank"
+                                                               href="http://www.meishij.net/%E8%9A%9D%E6%B2%B9">蚝油</a>
+                                    </h4>
+                                        <span>1匙</span><a
+                                                href="http://www.meishij.net/zuofa/jiucaihuamuerchaoyupi.html#"
+                                                class="fortb" data-type="2" biz-keyword="蚝油 鲜"
+                                                biz-category="50016422" data-style="1" data-tmpl="290x380"
+                                                target="_blank"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="measure">-->
+                        <!--<h2 class="cpc_h2">韭菜花木耳炒鱼皮的做法</h2>-->
+                        <!--<div class="editnew edit">-->
+                            <!--<div class="content clearfix">-->
+                                <!--<em class="step">1.</em>-->
+                                <!--<div class="c">-->
+                                    <!--<p>各材料</p>-->
+                                    <!--<p><img class="conimg" src="__PUBLIC__/assets/images/n4152544_147893917831608.jpg"-->
+                                            <!--alt=""></p></div>-->
+                            <!--</div>-->
+                            <!--<div class="content clearfix">-->
+                                <!--<em class="step">2.</em>-->
+                                <!--<div class="c">-->
+                                    <!--<p>木耳用沸水煮10分钟左右，捞起待用</p>-->
+                                    <!--<p><img class="conimg" src="__PUBLIC__/assets/images/n4152544_147893918265156.jpg"-->
+                                            <!--alt=""></p></div>-->
+                            <!--</div>-->
+                            <!--<div class="content clearfix">-->
+                                <!--<em class="step">3.</em>-->
+                                <!--<div class="c">-->
+                                    <!--<p>鱼皮用所有调味料腌10分钟</p>-->
+                                    <!--<p><img class="conimg" src="__PUBLIC__/assets/images/n4152544_147893918884040.jpg"-->
+                                            <!--alt=""></p></div>-->
+                            <!--</div>-->
+                            <!--<div class="content clearfix">-->
+                                <!--<em class="step">4.</em>-->
+                                <!--<div class="c">-->
+                                    <!--<p>热锅，用油爆香蒜片</p>-->
+                                    <!--<p><img class="conimg" src="__PUBLIC__/assets/images/n4152544_147893919384057.jpg"-->
+                                            <!--alt=""></p></div>-->
+                            <!--</div>-->
+                            <!--<div class="content clearfix">-->
+                                <!--<em class="step">5.</em>-->
+                                <!--<div class="c">-->
+                                    <!--<p>下腌好的鱼皮与姜丝</p>-->
+                                    <!--<p><img class="conimg" src="__PUBLIC__/assets/images/n4152544_147893919893409.jpg"-->
+                                            <!--alt=""></p></div>-->
+                            <!--</div>-->
+                            <!--<div class="content clearfix">-->
+                                <!--<em class="step">6.</em>-->
+                                <!--<div class="c">-->
+                                    <!--<p>煎炒一下至鱼皮卷起</p>-->
+                                    <!--<p><img class="conimg" src="__PUBLIC__/assets/images/n4152544_147893920066246.jpg"-->
+                                            <!--alt=""></p></div>-->
+                            <!--</div>-->
+                            <!--<div class="content clearfix">-->
+                                <!--<em class="step">7.</em>-->
+                                <!--<div class="c">-->
+                                    <!--<p>下韭菜花与木耳，炒透</p>-->
+                                    <!--<p><img class="conimg" src="__PUBLIC__/assets/images/n4152544_147893920495964.jpg"-->
+                                            <!--alt=""></p></div>-->
+                            <!--</div>-->
+                            <!--<div class="content clearfix">-->
+                                <!--<em class="step">8.</em>-->
+                                <!--<div class="c">-->
+                                    <!--<p>下葱，即可关火上碟</p>-->
+                                    <!--<p><img class="conimg" src="__PUBLIC__/assets/images/n4152544_147893921273078.jpg"-->
+                                            <!--alt=""></p></div>-->
+                            <!--</div>-->
+                            <!--<p><img style="margin:0 0 0 100px;" class="conimg" border="0"-->
+                                    <!--src="__PUBLIC__/assets/images/n4152544_147893924304092.jpg"></p>-->
+                            <!--<p><img style="margin:0 0 0 100px;" class="conimg" border="0"-->
+                                    <!--src="__PUBLIC__/assets/images/n4152544_147893925351068.jpg"></p>-->
+                            <!--<p><img style="margin:0 0 0 100px;" class="conimg" border="0"-->
+                                    <!--src="__PUBLIC__/assets/images/n4152544_147893925985265.jpg"></p>-->
+                        <!--</div>-->
+
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</block>
+<block name="js">
+    <script src="__PUBLIC__/assets/click.php"></script>
+    <script src="__PUBLIC__/assets/qrcode_wap.php"></script>
+    <script src="__PUBLIC__/assets/stat.php"></script>
+    <script src="__PUBLIC__/assets/stat(1).php"></script>
+    <script src="__PUBLIC__/assets/loginheader_n2.php"></script>
+</block>

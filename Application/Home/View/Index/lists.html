@@ -1,0 +1,310 @@
+<extend name="./Application/Home/View/Layout/index.html"/>
+
+<block name="content">
+    <div class="main_w clearfix">
+        <div class="main">
+            <div class="bbtitles">
+                家常好味道，给你家一般的温暖
+            </div>
+
+            <div class="fliterstyle1" id="fliterstyle1">
+                <div class="fliterstyle1_main">
+                    <ul class="tab">
+                        <li class="li1" po="1"><a href="">普通筛选</a></li>
+                        <li class="li2 current" po="2"><a href="">食材筛选</a><span class="littletips_new"></span></li>
+                    </ul>
+                    <div class="tabcon" id="po1" po="1" style="display:none">
+                        <dl class="clearfix">
+                            <dt class="pngFix">选择难度</dt>
+                            <dd class="clearfix">
+                                <a href="">新手尝试</a>
+                                <a href="">初级入门</a>
+                                <a href="">初中水平</a>
+                                <a href="">中级掌勺</a>
+                                <a href="">高级厨师</a>
+                                <a href="">厨神级</a>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt class="pngFix">选择工艺</dt>
+                            <dd class="clearfix bb0">
+                                <a href="">炒</a>
+                                <a href="">蒸</a>
+                                <a href="">煮</a>
+                                <a href="">炖</a>
+                                <a href="">拌</a>
+                                <a href="">烧</a>
+                                <a href="">煎</a>
+                                <a href="">炸</a>
+                                <a href="">烘焙</a>
+                                <a href="">微波</a>
+                                <div class="others">
+                                    <a href="">烤</a>
+                                    <a
+                                        href="">煲</a><a
+                                        href="">焖</a><a
+                                        href="">冻</a><a
+                                        href="">烙</a><a
+                                        href="">砂锅</a><a
+                                        href="">腌</a><a
+                                        href="">卤</a><a
+                                        href="">酱</a><a
+                                        href="">烩</a><a
+                                        href="">扒</a><a
+                                        href="">爆</a><a
+                                        href="">炝</a><a
+                                        href="">熘</a><a
+                                        href="">熏</a><a
+                                        href="">汆</a><a
+                                        href="">拔丝</a><a
+                                        href="">榨汁</a><a
+                                        href="">灼</a><a
+                                        href="">泡</a><a
+                                        href="">腊</a><a
+                                        href="">糖蘸</a><a
+                                        href="">干锅</a><a
+                                        href="">焗</a><a
+                                        href="">干煸</a><a
+                                        href="">煨</a><a
+                                        href="">其他</a>
+                                </div>
+                            </dd>
+                            <dd class="long clearfix filter_otherbtn">展开全部 &gt;&gt;</dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt class="pngFix">选择口味</dt>
+                            <dd class="clearfix">
+                                <a href="">家常味</a><a
+                                    href="">香辣味</a><a
+                                    href="">咸鲜味</a><a
+                                    href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=185">甜味</a><a
+                                    href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=182">酸甜味</a><a
+                                    href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=180">酸辣味</a><a
+                                    href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=177">麻辣味</a><a
+                                    href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=170">酱香味</a><a
+                                    href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=257">奶香味</a><a
+                                    href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=183">蒜香味</a>
+                                <div class="others"><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=188">鱼香味</a><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=162">葱香味</a><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=166">果味</a><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=186">五香味</a><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=173">咖喱味</a><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=171">椒麻味</a><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=179">茄汁味</a><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=266">酸味</a><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=174">苦香味</a><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=169">姜汁味</a><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=165">怪味</a><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=172">芥末味</a><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=167">红油味</a><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=164">豆瓣味</a><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=176">麻酱味</a><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=264">黑椒味</a><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=265">糊辣味</a><a
+                                        href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;kw=189">其他</a>
+                                </div>
+                            </dd>
+                            <dd class="long clearfix filter_otherbtn">展开全部 &gt;&gt;</dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt class="pngFix">选择时间</dt>
+                            <dd class="clearfix"><a
+                                    href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;mt=1">&lt;5分钟</a><a
+                                    href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;mt=2">
+                                &lt;10分钟</a><a href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;mt=3">
+                                &lt;15分钟</a><a href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;mt=4">
+                                &lt;30分钟</a><a href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;mt=5">
+                                &lt;60分钟</a><a href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;mt=6">
+                                &lt;90分钟</a><a href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;mt=7">
+                                &lt;2小时</a><a href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;mt=8">
+                                &lt;数小时</a><a href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;mt=9">
+                                &lt;一天</a><a href="http://www.meishij.net/list.php?sortby=update&amp;lm=270&amp;mt=10">
+                                &lt;数天</a></dd>
+                        </dl>
+                    </div>
+                    <div class="tabcon" po="2" id="po2">
+                        <div class="tabcon_scsearch">
+                            <div class="w">
+                                <input type="text" class="text" name="q" id="yl_q" defaultval="请输入您想查找的食材"
+                                       value="请输入您想查找的食材" autocomplete="off" onfocus="" onblur="">
+                                <input type="button" onclick="list_add_shicai()" class="submit pngFix" value=" ">
+                            </div>
+                        </div>
+                        <dl class="clearfix on">
+                            <dt class="pngFix">按数量排序</dt>
+                            <dd class="clearfix row2">
+                                <volist name="shicai" id="sc">
+                                    <a href=""><span class="yjtip">应季</span><strong>{{$sc}}</strong><em>925</em></a>
+                                </volist>
+                            </dd>
+                            <dd class="long clearfix filter_otherbtn">展开全部 &gt;&gt;</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div style="padding-top:20px;width:232px;overflow:hidden;">
+                    <div id="_q1c9aacm70kleo8mlcehlg14i"></div>
+                </div>
+            </div>
+
+            <div class="listtyle1_w" id="listtyle1_w">
+                <div class="listtyle1_list clearfix" id="listtyle1_list">
+                    <volist name="articles" id="article">
+                        <div class="listtyle1">
+                            <input type="hidden" name="id" id="{{$article.id}}">
+                            <a target="_blank" href="{{$article.link}}" title="{{$article.title}}" class="big">
+                                <img class="img" alt="{{$article.title}}" src="{{$article.thumb}}">
+                                <div class="i_w">
+                                    <div class="i" style="margin-top: 0px;">
+                                        <div class="c1">
+                                            <strong>{{$article.title}}</strong><span>10 评论  434 人气</span><em>火镀红叶</em>
+                                        </div>
+                                        <div class="c2">
+                                            <ul>
+                                                <li class="li1">8步 / 大概10分钟</li>
+                                                <li class="li2">炒 / 家常味</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </volist>
+
+                </div><!-- listtyle1_list end -->
+                <div class="listtyle1_page">
+                    <div class="listtyle1_page_w">
+                        {{$page}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</block>
+<block name="js">
+    <script type="text/javascript">
+        $(function () {
+            $(".listtyle1").on("mouseenter", function () {
+                var _this = $(this);
+                _this.find("div.i").animate({marginTop: "-100px"}, 400, function () {
+                });
+            });
+            $(".listtyle1").on("mouseleave", function () {
+                var _this = $(this);
+                _this.find("div.i").animate({marginTop: "0px"}, 400, function () {
+                });
+            });
+
+
+
+            $(".left_arrow").click(function () {
+                var _this = $(this);
+                var _ul = _this.next().find("ul");
+
+                _ul.animate({"margin-left": "0px"}, 400, function () {
+                    _ul.find("li").last().prependTo(_ul);
+                    _ul.css("margin-left", "-130px");
+                });
+            });
+            $(".right_arrow").click(function () {
+                var _this = $(this);
+                var _ul = _this.prev().find("ul");
+                _ul.animate({"margin-left": "-260px"}, 400, function () {
+                    _ul.find("li").first().appendTo(_ul);
+                    _ul.css("margin-left", "-130px");
+                });
+            });
+            $(".listtyle1 .info2").on("mouseenter", function () {
+                var _this = $(this);
+                _this.find(".info2_c").stop().animate({left: "0px", opacity: "1"}, 800, function () {
+                });
+            });
+            $(".listtyle1 .info2").on("mouseleave", function () {
+                var _this = $(this);
+                _this.find(".info2_c").stop().animate({left: "232px", opacity: "0"}, 800, function () {
+                });
+            });
+            $(".filter_otherbtn").toggle(function () {
+                var _this = $(this);
+                _this.html("<< 收起");
+                $(this).prev().find(".others").fadeIn(function () {
+
+                });
+            }, function () {
+                var _this = $(this);
+                _this.html("展开全部 >>");
+                $(this).prev().find(".others").fadeOut(function () {
+
+                });
+            });
+
+            $("#fliterstyle1 dt").click(function () {
+                var _this = $(this);
+                if (_this.parent().hasClass("on")) {
+                } else {
+                    _this.parents(".tabcon").find("dl.on").find("dd").slideUp(function () {
+                    });
+                    _this.parents(".tabcon").find("dl.on").removeClass("on");
+                    _this.next().slideDown(function () {
+                        _this.parent().find(".long").slideDown();
+                    });
+                    _this.parent().addClass("on");
+                }
+            });
+            $("#fliterstyle1 .tab li").click(function () {
+                var po = $(this).attr("po");
+                if (!$(this).hasClass("current")) {
+                    $(this).siblings().removeClass("current");
+                    $(this).addClass("current");
+                }
+                $("#fliterstyle1 .tabcon").each(function () {
+                    if ($(this).attr("po") == po) {
+                        $(this).siblings(".tabcon").hide();
+                        $(this).show();
+                    }
+                });
+            });
+            $("#cdlists li").click(function () {
+                var _this = $(this);
+                var po = _this.attr("po");
+                if ($("#cdlist .cdlist_w[po='" + po + "']").length > 0) {
+
+                    _this.siblings().removeClass("current");
+                    _this.addClass("current");
+                    $("#cdlist .loading").hide();
+                    $(".cdlist_w").removeClass("cdlist_w_current");
+                    $("#cdlist .cdlist_w[po='" + po + "']").addClass("cdlist_w_current");
+                } else {
+                    $(".cdlist_w").removeClass("cdlist_w_current");
+                    $("#cdlist .loading").css("display", "block");
+                    _this.siblings().removeClass("current");
+                    _this.addClass("current");
+
+                    $.post("ajax_cdlist.html", {name: "John", time: "2pm"},
+                            function (data) {
+
+                                $(".cdlist_w").removeClass("cdlist_w_current");
+                                $("#cdlist .loading").hide();
+                                $("#cdlist").append(data);
+
+                            });
+                }
+            });
+//            var id = 0;
+//            var lists_url = "{{:U('lists')}}";
+//            $.getJSON('lists_url',{id:id},function (data) {
+//                console.log(data);
+//                var html = " ";
+//                $.each(data,function (k, v) {
+//                    html +='<a href=""><span class="yjtip">'+ 应季 +'</span><strong>'+ v +'</strong><em>925</em></a>'
+//
+//                })
+//                $(".row2").append('html');
+//
+//            })
+
+
+        })
+    </script>
+</block>
+
